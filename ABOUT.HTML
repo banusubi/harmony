@@ -1,0 +1,81 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>GOODAY DESIGNS-ABOUT US</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <script>
+            document.getElementById('feedbackform').addEventListener('submit',function(event) {
+                event.preventDefault();
+                const name=document.getElementById('name').value;
+                const email=document.getElementById('email').value;
+                const message=document.getElementById('message').value;
+                alert('Thank you for your feedback,${name}!')
+            });
+        </script>
+        <header>
+            <h1>Gooday Designs</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="ABOUT.HTML">Designs</a></li>
+                </ul>
+            </nav>
+            </header>
+            <main>
+            <h2><b><i>OUR DESIGNS</h2>
+                <h3>Blouse Designs</h3>
+                <div class="gallery">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <hr>
+            <section>
+                <h3>Chudi Designs</h3>
+                <div class="chudi">
+                <div></div>
+                <div></div>
+                <div></div>
+                </div>
+            </section>
+            <hr>
+            <section>
+               <h3>Frog Designs</h3>
+               <div class="frog">
+               <div></div>
+               <div></div>
+               <div></div>
+               </div>
+            </section>
+            <hr>
+            <section>
+                <h3>Baby Dress Designs</h3>
+               <div class="baby">
+                <div></div>
+                <div></div>
+                <div></div>
+               </div>
+            </section>
+            <section>
+            <center>
+                <form>
+                <h1>feedback Form</h1>
+                <lable for="name">Name:</lable>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <lable for="message">Message:</lable>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+                </center>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Gooday Designs</p>
+        </footer>
+    </body>
+</html>

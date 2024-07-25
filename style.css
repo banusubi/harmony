@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 ;
+}
+nav ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    padding: 1rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+label{
+    font-weight: bold;
+}
+input,textarea{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color:tan;
+}
+footer{
+    background-color:grey;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    position: fixed;
+    width: 100%; 
+    bottom: 0;
+}
+.gallery{
+    display: flex;
+    height:300px;
+    width: 95%;
+}
+.gallery > div{
+    flex: 1;
+    transition: all 1s;
+}
+.gallery > div:nth-child(1){
+    background: url("./images/blouse\ 1.jfif");
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.gallery > div:nth-child(2){
+    background: url("./images/blouse\ 2.jfif");
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.gallery > div:nth-child(3){
+    background: url("images/blouse\ 3.jfif");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.gallery > div:hover{
+    flex: 3;
+}
+.chudi{
+    display: flex;
+    gap: 10px;
+    height:300px;
+    width: 95%;
+}
+.chudi > div{
+    flex: 1;
+    transition: all 1s;
+}
+.chudi > div:nth-child(1){
+    background: url("./images/chudi\ 1.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.chudi > div:nth-child(2){
+    background: url("chudi\ 2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.chudi > div:nth-child(3){
+    background: url("chudi\ 3.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.chudi > div:hover{
+    flex: 6;
+}
+
+.frog{
+    display: flex;
+    gap: 50px;
+    height:300px;
+    width: 95%;
+}
+.frog > div{
+    flex: 1;
+    transition: all 1s;
+}
+.frog > div:nth-child(1){
+    background: url("frog\ 1.jfif");
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.frog > div:nth-child(2){
+    background: url("frog\ 2.jfif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.frog > div:nth-child(3){
+    background: url("frog\ 3.jfif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.frog > div:hover{
+    flex: 6;
+}
+
+.baby{
+    display: flex;
+    gap: 50px;
+    height:300px;
+    width: 95%;
+}
+.baby > div{
+    flex: 1;
+    transition: all 1s;
+}
+.baby > div:nth-child(1){
+    background: url("baby\ 3.jfif");
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.baby > div:nth-child(2){
+    background: url("baby\ 2.jfif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.baby > div:nth-child(3){
+    background: url("baby\ 1.jfif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.baby > div:hover{
+    flex: 6;
+}
+
+
+
